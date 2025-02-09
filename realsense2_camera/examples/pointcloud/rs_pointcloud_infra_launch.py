@@ -14,7 +14,7 @@
 
 # DESCRIPTION #
 # ----------- #
-# Use this launch file to launch a device and align depth to infrared 1.
+# Use this launch file to launch a device and align depth to infrared 2.
 # The Parameters available for definition in the command line for the camera are described in rs_launch.configurable_parameters
 # command line example:
 # ros2 launch realsense2_camera rs_align_depth_to infra_launch.py
@@ -36,7 +36,7 @@ local_parameters = [{'name': 'camera_name',                  'default': 'camera'
                     {'name': 'camera_namespace',             'default': 'camera', 'description': 'camera namespace'},
                     {'name': 'enable_color',                 'default': 'false', 'description': 'enable color stream'},
                     {'name': 'enable_depth',                 'default': 'true', 'description': 'enable depth stream'},
-                    {'name': 'enable_infra1',                'default': 'true', 'description': 'enable depth stream'},
+                    {'name': 'enable_infra2',                'default': 'true', 'description': 'enable depth stream'},
                     {'name': 'enable_sync',                  'default': 'true', 'description': 'enable sync mode'},
                     {'name': 'pointcloud.enable',            'default': 'true', 'description': 'enable pointcloud'},
                     {'name': 'pointcloud.stream_filter',     'default': '3', 'description': 'pointcloud with infrared'},
